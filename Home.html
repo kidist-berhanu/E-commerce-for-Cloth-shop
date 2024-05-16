@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="style/AH-css.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body >
+
+    <header>
+        <div class="header" > 
+            <div class="header_img" >
+              <a href="Home.html"><img src="Image/logo.png" alt="Logo of Alem Habesha" ><i>Alem Habesha </i></a>
+            </div>  
+              <div class="" >
+              <ul>
+                  <li><a href="Home.html" >Home</a></li>
+                  <li><a href="shop.html">Shop</a>
+                  <div class="shopcontent">   
+                      <ul>
+                          <li><a href="Habesha_women's_Clothes.html" >Habesha Women's Dresses</a></li>
+                          <li><a href="Habesha_Wedding_Clothes.html" >Habesha Wedding Dresses</a></li>
+                          <li><a href="Habesha_Kid's_Clothes.html" >Habesha Kid's Clothing</a></li>                     
+                          <li><a href="Habesha_Men's_Clothes.html" >Habesha Men's Clothes</a></li>
+                          <li><a href="Chiffon.html" >Chiffon Dresses</a></li>
+                          <li><a href="Special_Packages.html" >Special Packages</a></li>
+                      </ul>
+                  </div>
+                  </li>  
+                  <li><a href="Gallery.html" >Gallery</a> </li>    
+                  <li><a href="AboutUs.html" >About Us</a></li>
+                  <li><a href="ContactUs.html" >Contact Us</a></li>
+              </ul>
+           </div>
+              <div class="icon" >
+                   <a href="Orders.html"><i class="fa fa-shopping-cart"></i></a>    
+              </div>        
+       </div>
+    </header>
+   
+
+<section class="section1">
+    <div>
+        <img src="Image/background3.jpg" alt="image" >
+        <div class="text_area">
+            <h1>New Collection</h1>
+            <p>Check out our shop Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero dicta atque, accusantium animi praesentium vitae omnis tempora quisquam unde velit veniam, commodi ad qui in rem quod repellat ratione!</p>
+            <div class="button">
+                <a href="Shop.html">
+                    <button>View Collection</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="imgonly">
+        <img src="Image/A2 PROFILE.jpg" alt="image2" >
+    </div>
+</section>
+
+<hr width="75%" align="left" size="2px" color="white">
+<section class="section2">
+    <div class="imgonly2">
+        <img src="Image/men2.jpg" alt="image2">
+    </div>
+    <div>
+        <div class="text_area2">
+            <h1>30% DISCOUNT FOR MEN'S</h1>
+            <p>Check out our shop Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+            <div class="button2">
+                <a href="Habesha_Men's_Clothes.html">
+                    <button>Show More</button>
+                </a>
+            </div> 
+            <img src="Image/men1.jpg" alt="image" >
+        </div>
+    </div>
+</section>
+<br><hr width="70%" align="right" size="2px" color="silver" >
+
+<section class="section3">
+    <div class="imgonly3">
+        <img src="Image/family1.jpg" alt="image2">
+    </div>
+    <div class="text_area3">
+        <h1>WATCH OUT OUR  SPECIAL PACKAGES</h1>
+        <p>One of our special package is FAMILY PACKAGE in which  We give each member of your beloved family one NETELA</p> 
+        <div class="button3">
+            <a href="Special_Packages.html">
+                <button>Show More</button>
+            </a>
+        </div> 
+    </div>
+    <br>
+</section>
+
+<section class="section4">
+    <div class="imgonly4">
+        <img src="Image/gift-habeshaw-RHSM5hOaIJc-unsplash.jpg" alt="image2">
+    </div>
+    <div class="text_area4">
+        <h1>OUR  <br> GALLERY  </h1>
+        <p>Vist our cute lady's photoshoots,<br> Enjoy your nah nah.</p> 
+        <div class="button2">
+            <a href="Gallery.html">
+                <button background="black">Vist Gallery</button>
+            </a>
+        </div>
+    </div>
+    </section>
+
+
+<section class="testimonial">
+    <div >
+        <h1 style="font-size: xx-large; margin-top: 7%; font-family: 'Times New Roman', Times, serif;">Our Reviews</h1>
+        <div class="line"></div>
+        <!-- arrow wrapper contains the review and the arrows -->
+        <div class="arrow-wrapper">
+          <!-- review section -->
+          <div id="reviewWrap" class="review-wrap">
+            <div id="imgBox"></div>
+            <div id="name"></div>
+            <div id="description"></div>
+          </div>
+          <!-- left arrow -->
+          <div class="left-arrow-wrap">
+            <div class="arrow"></div>
+          </div>
+          <!-- right arrow -->
+          <div class="right-arrow-wrap">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <script>
+        const reviewWrap = document.getElementById("reviewWrap");
+        const leftArrow = document.querySelector(".left-arrow-wrap .arrow");
+        const rightArrow = document.querySelector(".right-arrow-wrap .arrow");
+        const imgBox = document.getElementById("imgBox");
+        const name = document.getElementById("name");
+        const profession = document.getElementById("profession");
+        const description = document.getElementById("description");
+    
+            let people = [{
+                photo: "url('Image/rev (1).jpg')",
+                name: "kidist Berhanu",
+                description: "we love your work. keep amazing us.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iusto ducimus dolore aliquid ratione, odit magni error sit laborum dicta cumque placeat quaerat facere, eos illum esse voluptatem, ea quibusdam soluta officiis illo necessitatibus quod magnam sint. Aliquid, repudiandae quas? Distinctio sunt quasi aut accusamus enim quibusdam! Doloremque, repellendus minus!"
+              },
+            {
+                photo: "url(Image/rev (3).jpg')",
+                name: "Messi",
+                description: "Working as a designer is a very interesting job.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iusto ducimus dolore aliquid ratione, odit magni error sit laborum dicta cumque placeat quaerat facere, eos illum esse voluptatem, ea quibusdam soluta officiis illo necessitatibus quod magnam sint. Aliquid, repudiandae quas? Distinctio sunt quasi aut accusamus enim quibusdam! Doloremque, repellendus minus!"
+            },
+              {
+                photo: "url('Image/rev (3).jpg')",
+                name: "Abetew Megersa",
+                description: "Working as a designer is a very interesting job.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iusto ducimus dolore aliquid ratione, odit magni error sit laborum dicta cumque placeat quaerat facere, eos illum esse voluptatem, ea quibusdam soluta officiis illo necessitatibus quod magnam sint. Aliquid, repudiandae quas? Distinctio sunt quasi aut accusamus enim quibusdam! Doloremque, repellendus minus!"
+              },
+              {
+                photo: "url('https://cdn.pixabay.com/photo/2015/01/08/18/30/man-593372__340.jpg')",
+                name: "Shenkute Bemote",
+                description: "Working as a designer is a very interesting job.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam iusto ducimus dolore aliquid ratione, odit magni error sit laborum dicta cumque placeat quaerat facere, eos illum esse voluptatem, ea quibusdam soluta officiis illo necessitatibus quod magnam sint. Aliquid, repudiandae quas? Distinctio sunt quasi aut accusamus enim quibusdam! Doloremque, repellendus minus!"
+              }
+            
+            ];
+        
+// set the first person
+imgBox.style.backgroundImage = people[0].photo;
+        name.innerText = people[0].name;
+        description.innerText = people[0].description;
+        let currentPerson = 0;
+    
+        //Select the side where you want to slide
+        function slide(side, personNumber) {
+          let reviewWrapWidth = reviewWrap.offsetWidth + "px";
+          let descriptionHeight = description.offsetHeight + "px";
+          //(+ or -)
+          let side1symbol = side === "left" ? "" : "-";
+          let side2symbol = side === "left" ? "-" : "";
+    
+          setTimeout(() => {
+            imgBox.style.backgroundImage = people[personNumber].photo;
+          }, 0);
+          setTimeout(() => {
+            description.style.height = descriptionHeight;
+          }, 100);
+          setTimeout(() => {
+            name.innerText = people[personNumber].name;
+          }, 200);
+          setTimeout(() => {
+            description.innerText = people[personNumber].description;
+          }, 400);
+        }
+    
+        function setNextCardLeft() {
+          if (currentPerson === 3) {
+            currentPerson = 0;
+            slide("left", currentPerson);
+          } else {
+            currentPerson++;
+          }
+    
+          slide("left", currentPerson);
+        }
+    
+        function setNextCardRight() {
+          if (currentPerson === 0) {
+            currentPerson = 3;
+            slide("right", currentPerson);
+          } else {
+            currentPerson--;
+          }
+    
+          slide("right", currentPerson);
+        }
+    
+        leftArrow.addEventListener("click", setNextCardLeft);
+        rightArrow.addEventListener("click", setNextCardRight);
+        let menu = document.querySelector(".header");
+let lnk = document.querySelector(".lnk");
+
+menu.onclick = () => {
+  lnk.classList.toggle("open");
+};
+
+      </script>
+
+<footer>
+  <div class="container">
+      <div>
+          <p>Follow Us</p>
+      </div>
+
+      <div class="social"> 
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-telegram"></i></a>
+      </div>
+      <div>
+          <p>Any Questions?</p>
+          <p>+251934461351,+251911365411</p>
+      </div>
+      <div class="footnav">
+          <ul>
+              <li><a href="Home.html" >Home</a></li>
+              <li><a href="shop.html">Shop</a></li>  
+              <li><a href="Gallery.html" >Gallery</a> </li>    
+              <li><a href="AboutUs.html" >About Us</a></li>
+              <li><a href="ContactUs.html" >Contact Us</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="footbot">
+      <p>Copyright &copy;2023</p>
+  </div>
+</footer>
+
+</body>
+</html>
