@@ -1,0 +1,53 @@
+body{
+    position: relative;
+    margin-right: 5.5rem;  
+    margin-left:  4.5rem;  
+    border-radius: 1px;
+    border-color: bisque;
+    background-color: rgb(19, 17, 17);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+#text_aus{
+    text-align: right;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-right: 25%;
+    gap: 1rem;
+    align-items: right;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 12px 16px 0 rgba(112, 76, 76, 0.29),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+
+}
+.AboutUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.bgimg img{ 
+    position: relative;
+    width: 70%;
+}
+.text_area{
+    position: absolute;
+    width: 37%;
+    padding: 2.5%;
+    padding-right: 0%;
+    border-right: 0cap;
+    margin-left: 60%;
+    margin-right: 0%;
+    margin-bottom: 4%;
+    background-color: rgb(36, 33, 33);
+    font-family: 'Courier New', Courier, monospace;
+}
+.text_area p{
+    margin-right: 0%;
+    font-size: 20px;
+    word-spacing: 3px;
+    font-weight: 1;
+    line-height: 30px;
+
+}

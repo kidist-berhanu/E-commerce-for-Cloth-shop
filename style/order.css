@@ -1,0 +1,230 @@
+body{
+    position: relative;
+    margin-right: 5.5rem;  
+    margin-left:  4.5rem;  
+    border-radius: 1px;
+    border-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart{
+    
+    margin-right: 0px;
+    color: rgb(254, 255, 255);
+}
+.cart h1{
+    width: 2%;
+    font-size:28px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+.cart h1:before{
+    content: attr(data-count);
+    color: white;
+    position: absolute;
+    right: 16px;
+    font-size: 15px;
+    text-align: center;
+    top: -12px;
+    width: 20px;
+    height: 20px;
+    background: chocolate;
+    border-radius: 50%;
+    opacity: 0;
+}
+.cart h1.zero:before{
+    opacity: 1;
+}
+#Text{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: double;
+}
+.sec1{
+    border: 2px solid rgb(119, 114, 114);
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 10%;
+    padding: 1rem;
+}
+.image{
+    width: 500px;
+    height: 600px;
+}
+.image img{
+    width:90%; 
+    height:90%;
+}
+.item{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.item h1{
+    margin-bottom: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+.item h3{
+    font-size: 20px;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-style: italic;
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.select div label{
+    cursor: pointer;
+}
+.select div label input[type="checkbox"]{
+    display: none;
+}
+.select div label span{
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin-right: 2px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+    box-shadow: 0 10px 9px 0 rgba(247, 245, 245, 0.1),0 1px 1px 0 rgba(255, 255, 255, 0.1);
+
+}
+.select div label span:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+.select div label input[type="checkbox"]:checked ~ span {
+    background: rgb(9, 27, 128);
+    width: 100%;
+    height: 50%;
+}
+
+button{
+    position: relative;
+    width: 200px;
+    padding: 12px;
+    background: chocolate;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.sec2{
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 1rem;
+}
+.item2{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.item2 h1{
+    margin-bottom: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+.item2 h3{
+    font-size: 20px;
+    margin-bottom: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-style: italic;
+}
+
+.select2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.select2 div label{
+    cursor: pointer;
+}
+.select2 div label input[type="checkbox"]{
+    display: none;
+}
+.select2 div label span{
+    position: relative;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin-right: 2px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+    box-shadow: 0 10px 9px 0 rgba(247, 245, 245, 0.1),0 1px 1px 0 rgba(255, 255, 255, 0.1);
+
+}
+.select2 div label span:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+.select2 div label input[type="checkbox"]:checked ~ span {
+    background: rgb(9, 27, 128);
+    width: 100%;
+    height: 50%;
+}
+
+
+@keyframes first{
+    to{
+        width: 30px;
+        height: 20px;
+        left: 1290px;
+        top: -70px;
+    }
+}
+@keyframes second{
+    to{
+        width: 30px;
+        height: 20px;
+        left: 948px;
+        top: -70px;
+    }
+}
+@keyframes third{
+    to{
+        width: 30px;
+        height: 20px;
+        left: 606px;
+        top: -70px;
+    }
+}
+@keyframes four{
+    to{
+        width: 30px;
+        height: 20px;
+        left: 265px;
+        top: -70px;
+    }
+}
+
